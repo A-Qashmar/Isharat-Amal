@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إنشاء حساب</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>إنشاء حساب</h2>
+        <form id="loginForm">
+            <label for="username">اسم المستخدم</label>
+            <input type="text" id="username" name="username">
+
+            <label for="password">كلمة المرور</label>
+            <input type="password" id="password" name="password">
+
+            <label for="role">الدور</label>
+            <select id="role" name="role" required onchange="toggleDoctorFields()">
+                <option value="" selected>اختر دورك</option>
+                <option value="doctor">طبيب</option>
+                <option value="patient">مصاب</option>
+            </select>
+
+            <!-- الحقول الإضافية للطبيب -->
+            <div id="doctorFields" style="display: none;">
+                <label for="idNumber">رقم الهوية</label>
+                <input type="text" id="idNumber" name="idNumber" >
+
+                <label for="qualification">المؤهل العلمي</label>
+                <input type="text" id="qualification" name="qualification" >
+
+                <label for="documents">ارفق الوثائق للتأكد</label><br>
+                <input type="file" id="documents" name="documents">
+            </div>
+
+           <br><button type="submit" class="btn">إنشاء الحساب</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

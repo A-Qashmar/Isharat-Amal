@@ -1,0 +1,200 @@
+/* إعداد الخطوط الأساسية */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* إعداد الخلفية العامة للصفحة */
+body {
+    background-color: #fff0f5; /* وردي فاتح للخلفية */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+.cont{
+    width: 500px;
+    padding: 100px;
+    padding-top: 1%;
+    margin-top: 80px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+/* تنسيق الحاويات */
+.container, .header {
+    width: 310px;
+    padding: 100px;
+    padding-top: 1%;
+    margin-top: 80px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.sora {
+    width: 40px;
+    height: 40px;
+}
+
+.ara {
+    text-align: right;
+}
+
+/* إعداد الشعار */
+.logo {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+/* إعداد الشعار النصي */
+.slogan {
+    font-size: 14px;
+    color: #a61e4d; /* وردي داكن للنص */
+    margin-top: 5px;
+}
+
+/* إعداد النصوص */
+h3,h4,h5 {
+    color: #d63384; /* لون وردي للعنوان */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #d63384; /* لون وردي للعنوان */
+    margin-bottom: 20px;
+}
+
+dd {
+    color: #d63384; /* لون وردي للعنوان */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #a61e4d;
+}
+
+/* إعداد حقول الإدخال */
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #e8a0b6; /* إطار وردي فاتح */
+    border-radius: 5px;
+    outline: none;
+}
+
+/* إعداد حقول الإدخال */
+input[type="password"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #e8a0b6; /* إطار وردي فاتح */
+    border-radius: 5px;
+    outline: none;
+}
+
+/* إعداد الأزرار */
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #ff69b4, #d63384); /* تدرج لوني وردي */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #ff69b4, #d63384); /* تدرج لوني وردي */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.insha {
+    width: 10;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #ff69b4, #d63384); /* تدرج لوني وردي */
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.tasgeel {
+    width: 40%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #ff69b4, #d63384); /* تدرج لوني وردي */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d63384; /* لون أغمق عند التمرير */
+}
+
+.help-btn {
+    width: auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #d63384; /* زر النجدة بلون مميز */
+    color: white;
+    border-radius: 5px;
+}
+
+.help-btn:hover {
+    background-color: #a61e4d; /* زر النجدة بلون أغمق عند التمرير */
+}
+
+/* إعداد الخريطة */
+#map {
+    width: 20%;
+    height: 300px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق قسم الحقول الإضافية للطبيب */
+#doctorFields {
+    margin-top: 20px;
+}
+
+/* تنسيق قسم الإشعار */
+#alertSection {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffe6e6; /* خلفية وردية للإشعار */
+    border: 1px solid #ffccd5;
+    border-radius: 5px;
+}
+
+option {
+    text-align: right;
+}
+
+input {
+    text-align: right;
+}

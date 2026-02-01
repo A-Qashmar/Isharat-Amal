@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إشعار الاستغاثة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont">
+        <h2>إشعار الاستغاثة</h2>
+        <div id="alertSection" style="display: none;">
+            <p>تلقيت طلب استغاثة من مريض قريب منك.</p>
+            <p>الموقع: <span id="patientLocation"></span></p>
+            <p>زمن الوصول المتوقع: <span id="eta"></span> دقائق</p>
+            <button class="btn" onclick="acceptRequest()">قبول الطلب</button>
+        </div>
+    </div>
+    <script src="notification.js"></script>
+</body>
+</html>
