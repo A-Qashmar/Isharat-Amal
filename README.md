@@ -1,7 +1,7 @@
-# Ishara Amal - Emergency Medical Response Platform
+# Isharat Amal - Emergency Medical Response Platform
 
 ## Description
-Ishara Amal (Signal of Hope) is a web-based emergency medical response 
+Isharat Amal (Signal of Hope) is a web-based emergency medical response 
 platform designed to connect patients in critical need with nearby 
 qualified doctors. The application features real-time location mapping, 
 emergency notifications, and a doctor rating system to ensure quick and 
@@ -79,7 +79,7 @@ reliable medical assistance.
 
 ## File Structure
 ```
-Ishara-Amal/
+Isharat-Amal/
 ├── index.html (main.html)
 ├── register.html
 ├── map.html
